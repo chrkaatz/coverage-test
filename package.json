@@ -1,0 +1,40 @@
+{
+  "name": "coverage-test",
+  "version": "1.0.0",
+  "description": "api driver integration tests with coverage",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrkaatz/coverage-test.git"
+  },
+  "engines": {
+    "node": ">10.12.0"
+  },
+  "keywords": [
+    "api",
+    "integration",
+    "ci",
+    "tests",
+    "coverage"
+  ],
+  "author": "Christian Kaatz <chrkaatz@googlrmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrkaatz/coverage-test/issues"
+  },
+  "homepage": "https://github.com/chrkaatz/coverage-test#readme",
+  "devDependencies": {
+    "beeper": "^1.1.1",
+    "c8": "^3.2.1",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.0",
+    "newman": "^4.3.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
