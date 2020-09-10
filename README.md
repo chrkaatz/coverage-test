@@ -1,4 +1,5 @@
 # coverage-test
+
 api driver integration tests with coverage
 
 for more information see my [related blog post](https://blog.chrkaatz.de/2019/01/01/c8-and-postman/)
@@ -6,7 +7,7 @@ for more information see my [related blog post](https://blog.chrkaatz.de/2019/01
 ## how-to
 
 ```bash
-yarn  # install dependencies
+npm i  # install dependencies
 
 npm run test # run the testsuite
 ```
